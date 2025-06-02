@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengumuman Kelulusan SMP IT INSAN MADANI 2024/2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <marquee class="ribbon">🎓 Selamat kepada seluruh siswa SMP IT INSAN MADANI yang telah dinyatakan LULUS Tahun Ajaran 2024/2025 🎉</marquee>
+
+  <div class="container">
+    <h1>Pengumuman Kelulusan</h1>
+    <p>Masukkan NISN dan Tanggal Lahir untuk melihat hasil</p>
+
+    <form id="form">
+      <input type="text" id="nisn" placeholder="Masukkan NISN" required>
+      <input type="date" id="dob" required>
+      <button type="submit">Cek Hasil</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
